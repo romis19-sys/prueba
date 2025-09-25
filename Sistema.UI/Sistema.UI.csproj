@@ -66,11 +66,11 @@
     <Compile Include="FormularioBase\FrmPlantilla.Designer.cs">
       <DependentUpon>FrmPlantilla.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormularioBase\Hola.cs">
+    <Compile Include="Formularios\frmConexion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormularioBase\Hola.Designer.cs">
-      <DependentUpon>Hola.cs</DependentUpon>
+    <Compile Include="Formularios\frmConexion.Designer.cs">
+      <DependentUpon>frmConexion.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FrmMensajes.cs">
       <SubType>Form</SubType>
@@ -89,6 +89,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormularioBase\FrmPlantilla.resx">
       <DependentUpon>FrmPlantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmConexion.resx">
+      <DependentUpon>frmConexion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmMensajes.resx">
       <DependentUpon>FrmMensajes.cs</DependentUpon>
@@ -124,6 +127,10 @@
     <ProjectReference Include="..\Farmacia.BLL\Farmacia.BLL.csproj">
       <Project>{5e88aadc-aa99-470f-a07d-e0a110f2f7e8}</Project>
       <Name>Farmacia.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Farmacia.DAL\Farmacia.DAL.csproj">
+      <Project>{05df784d-8998-46fe-8fec-cb831947fecd}</Project>
+      <Name>Farmacia.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Farmacia.Entity\Farmacia.Entity.csproj">
       <Project>{07802dee-579a-4f78-aca6-b04a436edd00}</Project>
@@ -174,6 +181,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Designer %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Designer_64bit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Designer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

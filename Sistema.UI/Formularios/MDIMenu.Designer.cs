@@ -36,6 +36,9 @@
             this.menuTitulo = new System.Windows.Forms.MenuStrip();
             this.lblTituloSuperior = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.iconInicio = new FontAwesome.Sharp.IconToolStripButton();
             this.iconVentas = new FontAwesome.Sharp.IconDropDownButton();
             this.aperturaDeCajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -66,9 +69,7 @@
             this.backupDeLaBaseDeDtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iconSalir = new FontAwesome.Sharp.IconToolStripButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.iconInicio = new FontAwesome.Sharp.IconToolStripButton();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.statusStrip.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -152,6 +153,40 @@
             this.toolStrip1.Size = new System.Drawing.Size(214, 623);
             this.toolStrip1.TabIndex = 9;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(8)))), ((int)(((byte)(96)))));
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(212, 41);
+            this.toolStripLabel1.Text = "Sistema POS";
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelContenedor.BackgroundImage = global::Sistema.UI.Properties.Resources.Designer__1_;
+            this.panelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panelContenedor.Location = new System.Drawing.Point(217, 81);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(1210, 623);
+            this.panelContenedor.TabIndex = 11;
+            // 
+            // iconInicio
+            // 
+            this.iconInicio.AutoSize = false;
+            this.iconInicio.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconInicio.IconChar = FontAwesome.Sharp.IconChar.House;
+            this.iconInicio.IconColor = System.Drawing.Color.Black;
+            this.iconInicio.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconInicio.IconSize = 30;
+            this.iconInicio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.iconInicio.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.iconInicio.Name = "iconInicio";
+            this.iconInicio.Size = new System.Drawing.Size(200, 70);
+            this.iconInicio.Text = "Inicio";
             // 
             // iconVentas
             // 
@@ -400,40 +435,6 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // iconInicio
-            // 
-            this.iconInicio.AutoSize = false;
-            this.iconInicio.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconInicio.IconChar = FontAwesome.Sharp.IconChar.House;
-            this.iconInicio.IconColor = System.Drawing.Color.Black;
-            this.iconInicio.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconInicio.IconSize = 30;
-            this.iconInicio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.iconInicio.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.iconInicio.Name = "iconInicio";
-            this.iconInicio.Size = new System.Drawing.Size(200, 70);
-            this.iconInicio.Text = "Inicio";
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(8)))), ((int)(((byte)(96)))));
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(212, 41);
-            this.toolStripLabel1.Text = "Sistema POS";
-            // 
-            // panelContenedor
-            // 
-            this.panelContenedor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelContenedor.BackgroundImage = global::Sistema.UI.Properties.Resources.Designer__1_;
-            this.panelContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panelContenedor.Location = new System.Drawing.Point(217, 81);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1210, 623);
-            this.panelContenedor.TabIndex = 11;
-            // 
             // MDIMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -505,6 +506,7 @@
         private FontAwesome.Sharp.IconToolStripButton iconInicio;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.Panel panelContenedor;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
     }
 }
 
