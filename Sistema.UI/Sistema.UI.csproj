@@ -64,6 +64,12 @@
     <Compile Include="FormularioBase\FrmPlantilla.Designer.cs">
       <DependentUpon>FrmPlantilla.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioBase\sgs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioBase\sgs.Designer.cs">
+      <DependentUpon>sgs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmMensajes.cs">
       <SubType>Form</SubType>
     </Compile>
