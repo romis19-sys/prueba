@@ -113,6 +113,16 @@ namespace Sistema.UI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Generated_Image_September_26__2025___10_48AM {
+            get {
+                object obj = ResourceManager.GetObject("Generated Image September 26, 2025 - 10_48AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_buscar_48 {
             get {
                 object obj = ResourceManager.GetObject("icon_buscar_48", resourceCulture);
@@ -236,6 +246,16 @@ namespace Sistema.UI.Properties {
         internal static System.Drawing.Bitmap icons8_search_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-search-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("m-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

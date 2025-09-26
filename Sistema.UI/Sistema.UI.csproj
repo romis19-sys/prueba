@@ -105,6 +105,9 @@
     <EmbeddedResource Include="Formularios\FrmMensajes.resx">
       <DependentUpon>FrmMensajes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPrueba.resx">
+      <DependentUpon>FrmPrueba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MDIMenu.resx">
       <DependentUpon>MDIMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +206,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1758855466421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Generated Image September 26, 2025 - 10_48AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
