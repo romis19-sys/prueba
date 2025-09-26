@@ -1,5 +1,6 @@
 ﻿using Farmacia.DAL;
 using Farmacia.Entity;
+using FontAwesome.Sharp;
 using Sistema.UI.Modulos;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace Sistema.UI.Formularios
@@ -22,10 +24,11 @@ namespace Sistema.UI.Formularios
         {
             InitializeComponent();
         }
+
+
+
         #region "Botones"
 
-
-        #endregion
 
         private void iconCerrar_Click(object sender, EventArgs e)
         {
@@ -85,5 +88,20 @@ namespace Sistema.UI.Formularios
                 mensajes.mensajeError("Error al guardar los datos de conexión.");
             }
         }
+
+        private void iconMostrar_Click(object sender, EventArgs e)
+        {
+            if (txtClave.PasswordChar == '*')
+            {
+                txtClave.PasswordChar = '\0';
+
+            }
+            else
+            {
+                txtClave.PasswordChar = '*';
+            }
+        }
+
+        #endregion
     }
 }

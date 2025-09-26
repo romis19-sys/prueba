@@ -40,7 +40,7 @@ namespace Sistema.UI
                 }
             }
 
-            Application.Run(new MDIMenu());
+            Application.Run(new frmConexion());
         }
     }
 }

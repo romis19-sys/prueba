@@ -63,6 +63,16 @@ namespace Sistema.UI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1758855466421 {
+            get {
+                object obj = ResourceManager.GetObject("1758855466421", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Designer {
             get {
                 object obj = ResourceManager.GetObject("Designer", resourceCulture);
@@ -86,6 +96,16 @@ namespace Sistema.UI.Properties {
         internal static System.Drawing.Bitmap Designer_64bit {
             get {
                 object obj = ResourceManager.GetObject("Designer_64bit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Designer1 {
+            get {
+                object obj = ResourceManager.GetObject("Designer1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
